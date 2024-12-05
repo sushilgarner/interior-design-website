@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Transform your spaces with elegant interior design services. Explore our portfolio, services, and client testimonials.">
+    <title>Elegant Spaces - Interior Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/featured/?interior-design') no-repeat center center/cover;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #444;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .portfolio img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .contact {
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        .contact form {
+            display: inline-block;
+            max-width: 500px;
+            width: 100%;
+        }
+        .contact input, .contact textarea, .contact button {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .contact button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Elegant Spaces</h1>
+        <p>Transforming Interiors with Style and Functionality</p>
+    </header>
+    <nav>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Your Dream Space Awaits</h1>
+    </div>
+    <div class="content">
+        <section id="portfolio" class="section">
+            <h2>Our Portfolio</h2>
+            <div class="portfolio">
+                <img src="https://source.unsplash.com/300x300/?living-room" alt="Living Room Design">
+                <img src="https://source.unsplash.com/300x300/?bedroom" alt="Bedroom Design">
+                <img src="https://source.unsplash.com/300x300/?kitchen" alt="Kitchen Design">
+                <img src="https://source.unsplash.com/300x300/?interior" alt="Interior Design">
+            </div>
+        </section>
+        <section id="services" class="section">
+            <h2>Our Services</h2>
+            <p>We offer comprehensive interior design solutions, including space planning, color consultation, furniture selection, and project management. Whether you’re redesigning a single room or your entire home, our expert team is here to help.</p>
+        </section>
+        <section id="testimonials" class="section">
+            <h2>What Our Clients Say</h2>
+            <p>“Elegant Spaces transformed our living room into a beautiful yet functional space. Their attention to detail is unmatched!” – <strong>Jane D.</strong></p>
+            <p>“Highly professional and creative team! They understood our vision and brought it to life perfectly.” – <strong>Michael T.</strong></p>
+        </section>
+        <section id="contact" class="section contact">
+            <h2>Contact Us</h2>
+            <form action="https://example.com/submit" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Elegant Spaces. All rights reserved.</p>
+    </footer>
+</body>
+</html>
